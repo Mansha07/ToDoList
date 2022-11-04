@@ -1,11 +1,17 @@
 package classes;
 
 import java.awt.BorderLayout;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
+import java.awt.event.MouseAdapter; // Mouse Adapter helps to track mouse pointers when the mouse is pointing to a 
+									// specific place, pressed, deleted, a task is created from it
+
+import java.awt.event.MouseEvent;   // The action that occured when clicking a mouse button and what action is done
+
+// javax swing is used for providing the smallest of tasks at the minimal effort
+
+import javax.swing.JButton; // An implementation of the push/labeled button
+
+import javax.swing.JFrame;  // The main window where diff components like buttons, labeles, etc. are added in a GUI
 
 
 public class AppFrame extends JFrame{
